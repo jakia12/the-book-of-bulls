@@ -23,6 +23,24 @@
         max-width: 350px !important;
         width: 98%;
         transform: rotate(342deg);
+        display: block;
+      }
+      .book_img2 {
+        display: none !important;
+      }
+
+      @media screen and (max-width: 768px) {
+        .book_img {
+          display: none !important;
+        }
+        .book_img2 {
+          display: block;
+          width: 90%;
+        }
+        .an_img {
+          display: block !important;
+          width: 90%;
+        }
       }
     </style>
     <script>
@@ -4197,13 +4215,13 @@
                                           alt=""
                                           loading="lazy"
                                         />
-                                        <!-- <img
+                                        <img
                                           decoding="async"
                                           src="/images/pic.png"
-                                          class="attachment-large size-large wp-image-48 book_img2"
+                                          class="attachment-large size-large wp-image-48 book_img2 an_img"
                                           alt=""
                                           loading="lazy"
-                                        /> -->
+                                        />
                                       </div>
                                     </div>
                                   </div>
